@@ -1,5 +1,5 @@
 <div align="center">
- <h1 align="center"><a href="https://books.alexgalhardo.com//" target="_blank">books.alexgalhardo.com</a></h1>
+ <h1 align="center"><a href="https://books.alexgalhardo.com" target="_blank">books.alexgalhardo.com</a></h1>
 </div>
 
 ## Introduction
