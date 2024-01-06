@@ -101,7 +101,7 @@ export default function RandomBook() {
     return (
         <>
             <Head
-                title="Books API for Developers"
+                title="books.alexgalhardo.com"
                 description="The best books recomendation system and api for developers & gamers on internet."
             />
             <Navbar />
