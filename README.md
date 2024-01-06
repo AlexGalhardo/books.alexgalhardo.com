@@ -6,7 +6,7 @@
 
 * A simple catalog of books I have read, I'm reading and recommend to other people.
 
-## Tools
+## Technologies Used & Features
 
 * [Linux Mint XFCE 21.04](https://linuxmint.com/)
 * [Git for control version](https://git-scm.com/)
@@ -16,6 +16,7 @@
 * [NodeJS v20](https://nodejs.org/en)
 * [VSCode](https://code.visualstudio.com/)
 * Deploy: <https://vercel.com/>
+* Pagination and Text Search
 
 ## Web Scrapping
 

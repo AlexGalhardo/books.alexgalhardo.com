@@ -37,7 +37,7 @@ export default function RandomBook() {
             const randomBook = new BooksRepository().getRandom();
 
             if (!searchBookTitle.length) {
-                setError(`Nothing found for search: "${bookTitle}" Recommending random book`);
+                setError(`Nothing Found for Search: ${bookTitle}... Recommending random book`);
                 setTotalBooksFound(null);
                 setBooks(null);
                 setPageCount(0);
