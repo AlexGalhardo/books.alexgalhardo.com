@@ -16,7 +16,7 @@
 * [NodeJS v20](https://nodejs.org/en)
 * [VSCode](https://code.visualstudio.com/)
 * Deploy: <https://vercel.com/>
-* Pagination and Text Search
+* Webscraping, Pagination and Text Search
 
 ## Web Scrapping
 
@@ -98,4 +98,4 @@ npm run start
 
 [MIT](http://opensource.org/licenses/MIT)
 
-Copyright (c) August 2023-present, [Alex Galhardo](https://github.com/AlexGalhardo)
+Copyright (c) August 2024-present, [Alex Galhardo](https://github.com/AlexGalhardo)
