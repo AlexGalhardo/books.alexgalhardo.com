@@ -1,0 +1,296 @@
+[
+	{
+		"id": "20e75c2e-21aa-48d2-a391-bc5905605fad",
+		"name": "Marco Aurélio",
+		"slug": "marco-aurelio"
+	},
+	{
+		"id": "27be6407-50f1-4864-8d62-b73444b8556d",
+		"name": "Sêneca",
+		"slug": "seneca"
+	},
+	{
+		"id": "5f40b880-88d1-441c-ac68-34c905d56c5a",
+		"name": "Epicteto",
+		"slug": "epicteto"
+	},
+	{
+		"id": "cb56ae58-ba85-40a4-90e9-7198437af81c",
+		"name": "Dale Carnegie",
+		"slug": "dale-carnegie"
+	},
+	{
+		"id": "12cd589e-b53a-4b6f-83f8-c31a43072f05",
+		"name": "Alan Moore",
+		"slug": "alan-moore"
+	},
+	{
+		"id": "428d6d78-baec-413c-ac07-ae22c187f606",
+		"name": "Bruno Zago",
+		"slug": "bruno-zago"
+	},
+	{
+		"id": "c47b117a-6600-4b62-8371-74c3b33730ac",
+		"name": "Jostein Gaarder",
+		"slug": "jostein-gaarder"
+	},
+	{
+		"id": "990f7a79-48c3-4451-af11-60695c9114e7",
+		"name": "J.R.R. Tolkien",
+		"slug": "jrr-tolkien"
+	},
+	{
+		"id": "667a0561-f9ba-4bb7-b891-b9c00543f2ef",
+		"name": "Lewis Carroll",
+		"slug": "lewis-carroll"
+	},
+	{
+		"id": "2233bc78-eb09-4dd9-a2b9-b45ffaaf0e77",
+		"name": "Robert E. Howard",
+		"slug": "robert-e-howard"
+	},
+	{
+		"id": "ad741b05-e671-442c-96ee-dc5555afa8e4",
+		"name": "Keum Suk Gendry-Kim",
+		"slug": "keum-suk-gendry-kim"
+	},
+	{
+		"id": "924599ca-f2d8-4f80-950f-5bdd377b2d70",
+		"name": "Junji Ito",
+		"slug": "junji-ito"
+	},
+	{
+		"id": "61de1205-f0d0-4354-8279-12d7598792c7",
+		"name": "Hiroshi Hirata",
+		"slug": "hiroshi-hirata"
+	},
+	{
+		"id": "2328694a-0982-4deb-8238-82dfff48e318",
+		"name": "Christophe Chabouté",
+		"slug": "christophe-chaboute"
+	},
+	{
+		"id": "1b43fa49-eba7-4818-81a1-232960a6f19b",
+		"name": "Kevin EastmanPeter Laird",
+		"slug": "kevin-eastmanpeter-laird"
+	},
+	{
+		"id": "eb92b721-c96c-4654-9aad-67c9f45d71fa",
+		"name": "Helena P. Blavatsky",
+		"slug": "helena-p-blavatsky"
+	},
+	{
+		"id": "99401e95-2fa4-450c-a16e-27ba3fda65cf",
+		"name": "Edwin Arnold",
+		"slug": "edwin-arnold"
+	},
+	{
+		"id": "bcc41fae-f6a0-4252-9790-752edd22e041",
+		"name": "Albert Camus",
+		"slug": "albert-camus"
+	},
+	{
+		"id": "7a6cb509-457b-4264-a873-7a9d57d3d23f",
+		"name": "Haemin Sunim",
+		"slug": "haemin-sunim"
+	},
+	{
+		"id": "ae32df03-6629-49bf-bc3b-e7db5184ae0b",
+		"name": "Zygmunt Bauman",
+		"slug": "zygmunt-bauman"
+	},
+	{
+		"id": "4cb4423c-a6eb-458b-9eac-76fd25ceb631",
+		"name": "Byung-Chul Han",
+		"slug": "byung-chul-han"
+	},
+	{
+		"id": "147ab9b3-9eaf-420c-aee8-40bf680323b0",
+		"name": "Luciano Santos",
+		"slug": "luciano-santos"
+	},
+	{
+		"id": "1a912096-1ebf-451a-a5b8-751c6572f40c",
+		"name": "Isaac Asimov",
+		"slug": "isaac-asimov"
+	},
+	{
+		"id": "3a5798b3-08f9-428c-a377-f7a844d2e7a3",
+		"name": "Osamu Tezuka",
+		"slug": "osamu-tezuka"
+	},
+	{
+		"id": "2b59c9d5-415b-44eb-8f8d-fca4f4e633db",
+		"name": "Miguelanxo Prado",
+		"slug": "miguelanxo-prado"
+	},
+	{
+		"id": "d14127ab-11b9-4620-8b78-95070fad4ea0",
+		"name": "José Saramago",
+		"slug": "jose-saramago"
+	},
+	{
+		"id": "44ec70d3-b33d-43dd-ac7a-4a1e72d1bde3",
+		"name": "Khalil Gibran",
+		"slug": "khalil-gibran"
+	},
+	{
+		"id": "fc6489de-fb8d-4c1a-b427-65930f0db02d",
+		"name": "Anônimo",
+		"slug": "anonimo"
+	},
+	{
+		"id": "93f9fc3b-c9c4-4f33-9676-397caf5b9731",
+		"name": "J. R. R. Tolkien",
+		"slug": "j-r-r-tolkien"
+	},
+	{
+		"id": "6663992c-60f6-4147-b3ee-38de1076cf96",
+		"name": "Joseph Campbell",
+		"slug": "joseph-campbell"
+	},
+	{
+		"id": "1721123d-c6f9-4625-b248-f079765e391d",
+		"name": "Antoine de Saint-Exupéry",
+		"slug": "antoine-de-saint-exupery"
+	},
+	{
+		"id": "448b8466-8168-45b9-beb4-930a18626c33",
+		"name": "Ryan HolidayStephen Hanselman",
+		"slug": "ryan-holidaystephen-hanselman"
+	},
+	{
+		"id": "d3dd9327-f888-45be-868c-f154c5131a53",
+		"name": "Morgan Housel",
+		"slug": "morgan-housel"
+	},
+	{
+		"id": "44cb3149-c8b4-4668-9ba0-0bfae422efc2",
+		"name": "Jiro Taniguchi",
+		"slug": "jiro-taniguchi"
+	},
+	{
+		"id": "1aec5c89-d516-49cf-9b3b-064685e2fd17",
+		"name": "Neil Gaiman",
+		"slug": "neil-gaiman"
+	},
+	{
+		"id": "392ada2c-4fb3-45a9-83f5-bdbf2bd6c2b3",
+		"name": "Osamu Dazai",
+		"slug": "osamu-dazai"
+	},
+	{
+		"id": "14ac688d-456c-4b6b-bbb8-957480135d15",
+		"name": "Usamaru FuruyaOsamu Dazai",
+		"slug": "usamaru-furuyaosamu-dazai"
+	},
+	{
+		"id": "ace19fb7-0b93-4a1c-9069-fe0a7f3f6ebb",
+		"name": "Lao Tse",
+		"slug": "lao-tse"
+	},
+	{
+		"id": "52f9637e-9877-427b-bbb0-bd5939b294cb",
+		"name": "Miguel  de Cervantes",
+		"slug": "miguel-de-cervantes"
+	},
+	{
+		"id": "3a0288e6-fa55-4da3-b788-2021a2a927ec",
+		"name": "Júlio Verne",
+		"slug": "julio-verne"
+	},
+	{
+		"id": "a4d8f21f-9d2e-4ae4-ae65-b45411fca3a3",
+		"name": "Christopher Vogler",
+		"slug": "christopher-vogler"
+	},
+	{
+		"id": "b609589c-0267-4c71-8917-8ca39249ef51",
+		"name": "Martin Robert C.",
+		"slug": "martin-robert-c"
+	},
+	{
+		"id": "974a482d-b26d-437b-8f43-cc33dbd85fc9",
+		"name": "Ana Beatriz Barbosa",
+		"slug": "ana-beatriz-barbosa"
+	},
+	{
+		"id": "c8f84fd0-f1ec-4f1c-a140-8789ccfe00c5",
+		"slug": ""
+	},
+	{
+		"id": "74f1791a-f968-4d17-82aa-1f8f4350eab1",
+		"name": "Clóvis Barros de FilhoPedro Calabrez",
+		"slug": "clovis-barros-de-filhopedro-calabrez"
+	},
+	{
+		"id": "af22c532-2b14-425a-851b-eeae22fa70de",
+		"name": "Richard P. FeynmanRalph Leighton",
+		"slug": "richard-p-feynmanralph-leighton"
+	},
+	{
+		"id": "b71f6574-a131-4612-9218-b360d5b13931",
+		"name": "Ernest Hemingway",
+		"slug": "ernest-hemingway"
+	},
+	{
+		"id": "ed6b7571-87d1-4bdf-88bd-b90a8f5fc964",
+		"name": "Nassim Nicholas  Taleb",
+		"slug": "nassim-nicholas-taleb"
+	},
+	{
+		"id": "73c9f7c6-b029-4e83-abdd-b0c57f3cc47e",
+		"name": "Dan Brown",
+		"slug": "dan-brown"
+	},
+	{
+		"id": "43604ba0-5337-4e6b-b203-66a1378319fa",
+		"name": "Eduardo Spohr",
+		"slug": "eduardo-spohr"
+	},
+	{
+		"id": "cbf37f56-8946-4aaa-88f2-380251a665ba",
+		"name": "Dante Alighieri",
+		"slug": "dante-alighieri"
+	},
+	{
+		"id": "06fb2c15-b9bd-4453-84fe-70a2ce4495a9",
+		"name": "Chris Laffra",
+		"slug": "chris-laffra"
+	},
+	{
+		"id": "7058a1a1-1285-4e08-a3e9-11a1649a3bab",
+		"name": "Will Larson",
+		"slug": "will-larson"
+	},
+	{
+		"id": "b1d9959f-974d-4d1e-8d98-4240464c5f7b",
+		"name": "Cixin Liu",
+		"slug": "cixin-liu"
+	},
+	{
+		"id": "d6adc862-dc53-4c1e-a9b5-40a907b15dba",
+		"name": "Brandon Sanderson",
+		"slug": "brandon-sanderson"
+	},
+	{
+		"id": "c9883029-16e7-4ce6-9b60-65ec5d49495a",
+		"name": "Harper Lee",
+		"slug": "harper-lee"
+	},
+	{
+		"id": "0da843de-4e10-4f1e-a00d-c26a812e3524",
+		"name": "Patrick Rothfuss",
+		"slug": "patrick-rothfuss"
+	},
+	{
+		"id": "ffdbfd77-9aab-443a-8611-1aca2c6c838c",
+		"name": "Art Spiegelman",
+		"slug": "art-spiegelman"
+	},
+	{
+		"id": "c865f652-0ae9-4576-9254-f21ff314c620",
+		"name": "Paulo Coelho",
+		"slug": "paulo-coelho"
+	}
+]
