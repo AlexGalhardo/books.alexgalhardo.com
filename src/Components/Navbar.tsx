@@ -16,8 +16,8 @@ export default function Navbar() {
             <div className="fixed-top bg-light mb-5 bg-dark">
                 <nav className="container col-lg-10 navbar navbar-expand-lg fixed navbar-dark bg-dark p-3">
                     <div className="container-fluid">
-						<a className="navbar-brand appTitle d-flew w-25" href="/">
-                            <span className="fs-1 fw-bold navbarTitle text-info">Books</span>
+                        <a className="navbar-brand appTitle d-flew w-25" href="/">
+                            <span className="fs-4 fw-bold navbarTitle text-info">Books</span>
                         </a>
 
                         <form className="d-flex w-50" onSubmit={handleSearch}>
