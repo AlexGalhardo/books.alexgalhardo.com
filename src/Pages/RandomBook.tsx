@@ -6,7 +6,7 @@ import ReactPaginate from "react-paginate";
 import BooksRepository, { Book } from "../Repositories/Books.repository";
 import Head from "../Components/Head";
 import BookFound from "../Components/BookFound";
-import { container, iterateFromIndex } from "../Utils/Functions";
+import { iterateFromIndex } from "../Utils/Functions";
 import { TOTAL_BOOKS_PER_PAGE } from "../Utils/Envs";
 export default function RandomBook() {
     const [error, setError] = useState<string | null>();
@@ -17,6 +17,7 @@ export default function RandomBook() {
     const [paginationBooks, setPaginationBooks] = useState<Book[]>();
     const [pageCount, setPageCount] = useState(0);
     const [pageOffset, setPageOffset] = useState(0);
+    const [bookTitleSearched, setBookTitleSearched] = useState("");
 
     const location = useLocation();
     const queryParams = new URLSearchParams(location.search);
@@ -37,6 +38,7 @@ export default function RandomBook() {
             const randomBook = new BooksRepository().getRandom();
 
             if (!searchBookTitle.length) {
+                setBookTitleSearched(bookTitle);
                 setError(`Nothing Found for Search: ${bookTitle}... Recommending random book`);
                 setTotalBooksFound(null);
                 setBooks(null);
@@ -105,9 +107,18 @@ export default function RandomBook() {
                 description="The best books recomendation system and api for developers & gamers on internet."
             />
             <Navbar />
-            <div className="container" style={container}>
+            <div className="container" style={{ marginTop: "100px" }}>
                 <div className="row mt-5">
-                    {error && <ErrorAlertMessage message={error} />}
+                    {/* {error && <ErrorAlertMessage message={error} />} */}
+
+                    {error && (
+                        <p className="fs-3 mb-5 alert alert-light d-flex justify-content-between">
+                            <span>
+                                Not Found: <strong className="text-danger">{bookTitleSearched}</strong>{" "}
+                            </span>
+                            <span className="text-info">Recommending Random Book...</span>
+                        </p>
+                    )}
 
                     {totalBooksFound !== 0 ? (
                         <p className="fs-3 mb-5 alert alert-light d-flex justify-content-between">

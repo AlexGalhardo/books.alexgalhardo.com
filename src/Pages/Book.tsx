@@ -4,7 +4,6 @@ import { useNavigate, useParams } from "react-router-dom";
 import BooksRepository, { Book } from "../Repositories/Books.repository";
 import Head from "../Components/Head";
 import BookFound from "../Components/BookFound";
-import { container } from "../Utils/Functions";
 
 export default function BookPage() {
     const { book_title_slug } = useParams();
@@ -33,7 +32,7 @@ export default function BookPage() {
         <>
             <Head title={book?.title} description={pageDescription} />
             <Navbar />
-            <div className="container " style={container}>
+            <div className="container" style={{ marginTop: "100px" }}>
                 <div className="row mt-5">
                     <BookFound book={book} />
                 </div>

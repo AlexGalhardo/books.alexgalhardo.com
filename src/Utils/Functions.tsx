@@ -13,10 +13,6 @@ export function iterateFromIndex(books: Book[], pageOffset: number): Book[] {
     return arrayFromOffeset;
 }
 
-export const container: CSSProperties = {
-    marginTop: "100px",
-};
-
 export const amazonButton: CSSProperties = {
     border: "none",
     textDecoration: "none",

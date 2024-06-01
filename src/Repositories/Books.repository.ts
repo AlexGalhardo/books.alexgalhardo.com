@@ -33,10 +33,9 @@ export interface Book {
         score?: string | null;
         total_customer_reviews?: string;
     };
-    total_pages?: string | undefined | null;
+    total_pages?: string | null;
     author: Author;
     publisher: Publisher;
-    // categories: Categorie[];
     summary: string;
     created_at: string;
     updated_at: string | null;
@@ -51,7 +50,6 @@ export interface BooksRepositoryPort {
     searchAllBooksSimilarTitle(bookTitle: string): Book[];
     getByAuthor(authorName: string): Book[];
     getByPublisher(publisherName: string): Book[];
-    // getByCategory(categoryName: string): Book[];
 }
 
 export default class BooksRepository implements BooksRepositoryPort {
@@ -95,14 +93,8 @@ export default class BooksRepository implements BooksRepositoryPort {
     }
 
     public getByPublisher(publisherName: string): Book[] {
-        return this.books.filter(
-            (game: Book) => game?.publisher?.slug.toLowerCase().includes(publisherName.toLowerCase()),
+        return this.books.filter((game: Book) =>
+            game?.publisher?.slug.toLowerCase().includes(publisherName.toLowerCase()),
         );
     }
-
-    // public getByCategory(categoryName: string): Book[] {
-    //     return this.books.filter((book: Book) =>
-    //         book.categories.some((category) => category.slug.toLowerCase().includes(categoryName.toLowerCase())),
-    //     );
-    // }
 }

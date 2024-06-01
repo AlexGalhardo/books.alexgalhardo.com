@@ -7,7 +7,7 @@ import BookFound from "../Components/BookFound";
 import authorsJson from "../Repositories/Jsons/authors.json";
 import ReactPaginate from "react-paginate";
 import { TOTAL_BOOKS_PER_PAGE } from "../Utils/Envs";
-import { container, iterateFromIndex } from "../Utils/Functions";
+import { iterateFromIndex } from "../Utils/Functions";
 
 export default function Developer() {
     const { author_name } = useParams();
@@ -55,7 +55,7 @@ export default function Developer() {
         <>
             <Head title={pageTitle} description={pageDescription} />
             <Navbar />
-            <div className="container" style={container}>
+            <div className="container" style={{ marginTop: "100px" }}>
                 <div className="row mt-5">
                     {totalBooksFound && (
                         <p className="fs-3 mb-5 alert alert-light d-flex justify-content-between">

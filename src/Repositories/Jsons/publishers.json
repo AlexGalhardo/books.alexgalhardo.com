@@ -1,197 +1,42 @@
 [
 	{
-		"id": "b6fe6749-a321-4e09-b5e3-404e4bb5adf0",
-		"name": "Edipro",
-		"slug": "edipro"
+		"id": "0a133951-0f59-4b91-99eb-ed2a55cb3f3a",
+		"name": "Manning",
+		"slug": "manning"
 	},
 	{
-		"id": "b7731007-0f94-460b-95fe-0ecbe2b3af86",
-		"name": "Editora Sextante",
-		"slug": "editora-sextante"
+		"id": "d31df12b-869b-4894-aa85-cf4b60eb1266",
+		"name": "The MIT Press",
+		"slug": "the-mit-press"
 	},
 	{
-		"id": "cf750b81-726c-42d6-bb6e-954e67af4a43",
-		"name": "DC",
-		"slug": "dc"
-	},
-	{
-		"id": "f30a0a8e-5ae2-4988-8b24-5b28b4e3a6d1",
-		"name": "Pipoca e Nanquim",
-		"slug": "pipoca-e-nanquim"
-	},
-	{
-		"id": "977bf419-27e1-40e4-ac20-a4f77c20e2c6",
-		"name": "Companhia das Letras",
-		"slug": "companhia-das-letras"
-	},
-	{
-		"id": "3a8fbd67-9c99-4ff7-8318-2e563a120520",
-		"name": "HarperCollins Brasil",
-		"slug": "harpercollins-brasil"
-	},
-	{
-		"id": "66b4ee16-fd01-4801-a112-f32ce5472656",
-		"name": "Pandorga Editora",
-		"slug": "pandorga-editora"
-	},
-	{
-		"id": "48945f81-a5f6-4afd-9f26-50420df1ff72",
-		"name": "Pipoca & Nanquim",
-		"slug": "pipoca-and-nanquim"
-	},
-	{
-		"id": "ce49c2b1-3474-49b2-b272-55ecd0677b18",
-		"name": "Editora Pipoca & Nanquim",
-		"slug": "editora-pipoca-and-nanquim"
-	},
-	{
-		"id": "34d0c047-59d2-4d0e-930e-da69f03005c8",
-		"name": "",
-		"slug": ""
-	},
-	{
-		"id": "82cf3d26-3a16-405c-b935-18aeca8cb05b",
-		"name": "Teosófica",
-		"slug": "teosofica"
-	},
-	{
-		"id": "7ffd78fb-e599-46ff-abe3-3afd2b9a34cb",
-		"name": "Record",
-		"slug": "record"
-	},
-	{
-		"id": "26397dd2-7384-4d78-9840-23b4547043cf",
-		"name": "Zahar",
-		"slug": "zahar"
-	},
-	{
-		"id": "5fbde006-e0dd-4be0-b37c-28318018b580",
-		"name": "Editora Vozes",
-		"slug": "editora-vozes"
-	},
-	{
-		"id": "38dcff5a-b679-4dcc-98cd-203c3f46e6b2",
-		"name": "Gente Autoridade",
-		"slug": "gente-autoridade"
-	},
-	{
-		"id": "5650c701-c540-4460-a7d1-6f6bdf8af3dc",
-		"name": "Editora Aleph",
-		"slug": "editora-aleph"
-	},
-	{
-		"id": "1a7781bd-6237-43c6-9361-036678238a2d",
-		"name": "Planeta Minotauro",
-		"slug": "planeta-minotauro"
-	},
-	{
-		"id": "c69a1931-9b66-4277-80c5-e5ed5cf0945c",
-		"name": "Vertical Comics",
-		"slug": "vertical-comics"
-	},
-	{
-		"id": "580c5f2b-bc31-4fc2-a24a-dd38e5a1fa73",
-		"name": "Planeta",
-		"slug": "planeta"
-	},
-	{
-		"id": "bbc5b001-dd57-4052-9cb0-8298dabad974",
-		"name": "Montecristo Editora",
-		"slug": "montecristo-editora"
-	},
-	{
-		"id": "85aed456-1791-463a-80e8-e1287a8b0bce",
-		"name": "Penguin-Companhia",
-		"slug": "penguin-companhia"
-	},
-	{
-		"id": "092b45af-8449-46ef-b5e3-5c059dde5f08",
-		"name": "HarperCollins",
-		"slug": "harpercollins"
-	},
-	{
-		"id": "63edd778-9c50-4f8c-845c-08d24c556879",
-		"name": "Intrínseca",
-		"slug": "intrinseca"
-	},
-	{
-		"id": "5bafdc34-8012-45de-995e-88e9dae61bf6",
-		"name": "Vertigo",
-		"slug": "vertigo"
-	},
-	{
-		"id": "a083485f-ca9d-4beb-9170-2f142edb0865",
-		"name": "New Directions",
-		"slug": "new-directions"
-	},
-	{
-		"id": "1ea0d765-a45a-407c-8f39-79d81cdb160b",
-		"name": "Principis",
-		"slug": "principis"
-	},
-	{
-		"id": "9ec4d703-2d90-41c7-be7c-8897117fccff",
+		"id": "78c8abec-9c6d-478d-8178-331e69a00503",
 		"name": "Pearson",
 		"slug": "pearson"
 	},
 	{
-		"id": "d48f5f15-2052-44da-9b06-0b4fb9196fc1",
-		"name": "Principium",
-		"slug": "principium"
+		"id": "a8210570-ca40-49dc-b9f5-90703b59b486",
+		"name": "",
+		"slug": ""
 	},
 	{
-		"id": "c2735d12-1221-4243-99c5-6e6dbdd39b40",
-		"name": "Citadel Grupo Editorial",
-		"slug": "citadel-grupo-editorial"
+		"id": "8cfca7ec-f54d-4d1b-9cba-829a0494c68e",
+		"name": "Addison-Wesley Professional",
+		"slug": "addison-wesley-professional"
 	},
 	{
-		"id": "feec8348-eb27-465b-aeb3-67d6d0343df6",
-		"name": "W. W. Norton & Company",
-		"slug": "w-w-norton-and-company"
+		"id": "44df1ed9-b4b4-4a6f-8f77-4c43066fedf0",
+		"name": "O'Reilly Media",
+		"slug": "oreilly-media"
 	},
 	{
-		"id": "7df6b1dc-32b2-49b6-997f-7fdb013944ee",
-		"name": "Scribner",
-		"slug": "scribner"
+		"id": "412142e6-7f8b-4e0c-b055-748b07d7d278",
+		"name": "Pocket Books",
+		"slug": "pocket-books"
 	},
 	{
-		"id": "2fa9db42-e38b-41e3-b5b1-c4fa31682a9c",
-		"name": "Objetiva",
-		"slug": "objetiva"
-	},
-	{
-		"id": "702bb3a3-0934-40f7-81e9-3bfb1f4d0c30",
-		"name": "Anchor",
-		"slug": "anchor"
-	},
-	{
-		"id": "fd1140da-723d-4520-a387-fb716678f0f2",
-		"name": "Editora Arqueiro",
-		"slug": "editora-arqueiro"
-	},
-	{
-		"id": "3a937bc5-aeef-4f35-8bd5-e3b0f5919a27",
-		"name": "Verus",
-		"slug": "verus"
-	},
-	{
-		"id": "e4734e29-a7e2-497b-85eb-e61bae1fa581",
-		"name": "Mimética",
-		"slug": "mimetica"
-	},
-	{
-		"id": "9f7d4f30-1909-4118-a287-2b998e7ebbe5",
-		"name": "Suma",
-		"slug": "suma"
-	},
-	{
-		"id": "c9f1fcd0-7b57-4d57-8053-06edd9dec664",
-		"name": "José Olympio",
-		"slug": "jose-olympio"
-	},
-	{
-		"id": "3a625120-ed35-4eef-8404-6f9a55946636",
-		"name": "Quadrinhos na Cia",
-		"slug": "quadrinhos-na-cia"
+		"id": "7e8bcd87-df50-40f0-baff-7da392ee49b5",
+		"name": "IT Revolution Press",
+		"slug": "it-revolution-press"
 	}
 ]
