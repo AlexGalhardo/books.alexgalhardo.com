@@ -552,13 +552,13 @@
 	},
 	{
 		"id": "7ef68af0-f76b-4dd5-986a-73b3376001d2",
-		"title": "",
-		"slug": "",
+		"title": "The Unicorn Project: A Novel About Developers, Digital Disruption, and Thriving in the Age of Data",
+		"slug": "the-unicorn-project-a-novel-about-developers-digital-disruption-and-thriving-in-the-age-of-data",
 		"cover_image": "https://m.media-amazon.com/images/I/51+3lvlXNuL._SY300_SX300_.jpg",
 		"link_amazon": "https://www.amazon.com/The-Unicorn-Project-Gene-Kim-audiobook/dp/B0812C82T9",
 		"customer_reviews_link": "https://www.amazon.com/The-Unicorn-Project-Gene-Kim-audiobook/dp/B0812C82T9#customerReviews",
 		"subtitle": "",
-		"release_date": "",
+		"release_date": "November 26, 2019",
 		"rating": {
 			"score": "4.5",
 			"total_customer_reviews": "4,474"
@@ -570,8 +570,8 @@
 		},
 		"publisher": {
 			"id": "17932c7a-58ef-49e8-a964-00dc7a5d4aac",
-			"name": "",
-			"slug": ""
+			"name": "IT Revolution Press",
+			"slug": "it-revolution-press"
 		},
 		"summary": "The Phoenix Project wowed over a half-million readers. Now comes The Unicorn Project!“The Unicorn Project is amazing, and I loved it 100 times more than The Phoenix Project…” (Fernando Cornago, senior director platform engineering, Adidas)“Gene Kim does a masterful job of showing how … the efforts of many create lasting business advantages for all.” (Dr. Steven Spear, author of The High-Velocity Edge, sr. lecturer at MIT, and principal of HVE LLC)“The Unicorn Project is so clever, so good, so crazy enlightening!” (Cornelia Davis, vice president of technology at Pivotal Software, Inc., author of Cloud Native Patterns)This highly anticipated follow-up to the best-selling title The Phoenix Project takes another look at Parts Unlimited, this time from the perspective of software development. In The Unicorn Project, we follow Maxine, a senior lead developer and architect, as she is exiled to the Phoenix Project, to the horror of her friends and colleagues, as punishment for contributing to a payroll outage. She tries to survive in what feels like a heartless and uncaring bureaucracy and to work within a system where no one can get anything done without endless committees, paperwork, and approvals. One day, she is approached by a ragtag bunch of misfits who say they want to overthrow the existing order, to liberate developers, to bring joy back to technology work, and to enable the business to win in a time of digital disruption. To her surprise, she finds herself drawn ever further into this movement, eventually becoming one of the leaders of the Rebellion, which puts her in the crosshairs of some familiar and very dangerous enemies. The Age of Software is here, and another mass extinction event looms - this is a story about rebel developers and business leaders working together, racing against time to innovate, survive, and thrive in a time of unprecedented uncertainty...and opportunity.    Read more",
 		"created_at": "2024-06-01T16:33:34.861Z",
