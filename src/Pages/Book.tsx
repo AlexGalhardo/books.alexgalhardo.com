@@ -10,7 +10,7 @@ export default function BookPage() {
     const pageDescription = `See information about ${book_title_slug}`;
     const navigate = useNavigate();
     const [book, setBook] = useState<Book | null>();
-    const searchGameByTitle = useCallback(async (bookTitleSlug: string) => {
+    const searchBookByTitle = useCallback(async (bookTitleSlug: string) => {
         const bookFound = new BooksRepository().getByTitleSlug(bookTitleSlug);
         if (!bookFound) {
             setBook(null);
@@ -22,7 +22,7 @@ export default function BookPage() {
 
     useEffect(() => {
         if (book_title_slug) {
-            searchGameByTitle(book_title_slug);
+            searchBookByTitle(book_title_slug);
         } else {
             navigate("/");
         }

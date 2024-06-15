@@ -8,6 +8,7 @@ import authorsJson from "../Repositories/Jsons/authors.json";
 import ReactPaginate from "react-paginate";
 import { TOTAL_BOOKS_PER_PAGE } from "../Utils/Envs";
 import { iterateFromIndex } from "../Utils/Functions";
+import ProgressBar from "../Components/ProgressBar";
 
 export default function Developer() {
     const { author_name } = useParams();
@@ -21,7 +22,7 @@ export default function Developer() {
     const [pageCount, setPageCount] = useState(0);
     const [pageOffset, setPageOffset] = useState(0);
 
-    const searchDeveloperGames = useCallback(async (authorName: string) => {
+    const searchAuthorBooks = useCallback(async (authorName: string) => {
         const booksFound = new BooksRepository().getByAuthor(authorName);
         if (!booksFound.length) navigate("/");
 
@@ -31,7 +32,7 @@ export default function Developer() {
 
     useEffect(() => {
         if (author_name) {
-            searchDeveloperGames(author_name);
+            searchAuthorBooks(author_name);
         } else {
             navigate("/");
         }
@@ -54,8 +55,9 @@ export default function Developer() {
     return (
         <>
             <Head title={pageTitle} description={pageDescription} />
+			<ProgressBar />
             <Navbar />
-            <div className="container" style={{ marginTop: "100px" }}>
+            <div className="container col-lg-9" style={{ marginTop: "100px" }}>
                 <div className="row mt-5">
                     {totalBooksFound && (
                         <p className="fs-3 mb-5 alert alert-light d-flex justify-content-between">
@@ -94,7 +96,7 @@ export default function Developer() {
                         />
                     )}
 
-                    {paginationBooks?.map((book) => <BookFound book={book} />)}
+                    {paginationBooks?.map((book) => <BookFound key={book.id} book={book} />)}
 
                     {totalBooksFound && totalBooksFound > TOTAL_BOOKS_PER_PAGE && (
                         <ReactPaginate

@@ -13,14 +13,14 @@ export default function Navbar() {
 
     return (
         <>
-            <div className="fixed-top bg-light mb-5 bg-dark">
-                <nav className="container col-lg-10 navbar navbar-expand-lg fixed navbar-dark bg-dark p-3">
+            <div className="fixed-top mb-5" style={{ backgroundColor: "#05050B" }}>
+                <nav className="container col-lg-9 navbar navbar-expand-lg fixed p-3">
                     <div className="container-fluid">
-                        <a className="navbar-brand appTitle d-flew w-25" href="/">
-                            <span className="fs-3 fw-bold navbarTitle text-info">SWE Books</span>
+                        <a className="navbar-brand" href="/">
+                            <span className="fs-3 fw-bold text-white">Books</span>
                         </a>
 
-                        <form className="d-flex w-50" onSubmit={handleSearch}>
+                        <form className="d-flex w-75" onSubmit={handleSearch}>
                             <div className="input-group">
                                 <input
                                     type="text"

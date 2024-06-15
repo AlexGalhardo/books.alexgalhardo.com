@@ -8,6 +8,7 @@ import Head from "../Components/Head";
 import BookFound from "../Components/BookFound";
 import { iterateFromIndex } from "../Utils/Functions";
 import { TOTAL_BOOKS_PER_PAGE } from "../Utils/Envs";
+import ProgressBar from "../Components/ProgressBar";
 export default function RandomBook() {
     const [error, setError] = useState<string | null>();
     const [book, setBook] = useState<Book | null>(null);
@@ -104,10 +105,11 @@ export default function RandomBook() {
         <>
             <Head
                 title="books.alexgalhardo.com"
-                description="The best books recomendation system and api for developers & gamers on internet."
+                description="Software Engineering books recomendation."
             />
+			<ProgressBar />
             <Navbar />
-            <div className="container" style={{ marginTop: "100px" }}>
+            <div className="container col-lg-9" style={{ marginTop: "100px" }}>
                 <div className="row mt-5">
                     {/* {error && <ErrorAlertMessage message={error} />} */}
 

@@ -8,11 +8,12 @@ import publishersJson from "../Repositories/Jsons/publishers.json";
 import ReactPaginate from "react-paginate";
 import { TOTAL_BOOKS_PER_PAGE } from "../Utils/Envs";
 import { iterateFromIndex } from "../Utils/Functions";
+import ProgressBar from "../Components/ProgressBar";
 
 export default function Publisher() {
     const { publisher_name } = useParams();
     const publisherName = publishersJson.filter((publisher) => publisher.slug === publisher_name)[0].name;
-    const pageTitle = `${publisherName} Games`;
+    const pageTitle = `${publisherName} Books`;
     const pageDescription = `See books made by publisher ${publisher_name}`;
     const navigate = useNavigate();
     const [books, setBooks] = useState<Book[] | null>(null);
@@ -21,7 +22,7 @@ export default function Publisher() {
     const [pageCount, setPageCount] = useState(0);
     const [pageOffset, setPageOffset] = useState(0);
 
-    const searchPublisherGames = useCallback(async (publisherName: string) => {
+    const searchPublisherBooks = useCallback(async (publisherName: string) => {
         const booksFound = new BooksRepository().getByPublisher(publisherName);
         if (!booksFound.length) navigate("/");
 
@@ -31,7 +32,7 @@ export default function Publisher() {
 
     useEffect(() => {
         if (publisher_name) {
-            searchPublisherGames(publisher_name);
+            searchPublisherBooks(publisher_name);
         } else {
             navigate("/");
         }
@@ -54,8 +55,9 @@ export default function Publisher() {
     return (
         <>
             <Head title={pageTitle} description={pageDescription} />
+			<ProgressBar />
             <Navbar />
-            <div className="container" style={{ marginTop: "100px" }}>
+            <div className="container col-lg-9 text-wrap" style={{ marginTop: "100px" }}>
                 <div className="row mt-5">
                     {totalBooksFound && (
                         <p className="fs-3 mb-5 alert alert-light d-flex justify-content-between">
